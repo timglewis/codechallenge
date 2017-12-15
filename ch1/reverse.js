@@ -1,13 +1,15 @@
 // Challenge 1
 // Reverse the string passed
 
-var ostr = “abcdefghijklmnopqrstuvwxyz”;
-
 function reverseIt(str)
 {
   // code goes here
+
+  return str;
 }
 
-rstr = reverseIt(ostr);
+var ostr = “abcdefghijklmnopqrstuvwxyz”;
 
-print “The reverse of: “ 
+var rstr = reverseIt(ostr);
+
+document.write(“The reverse of: “ + ostr + “ is “ + rstr);
